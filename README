@@ -1,7 +1,9 @@
-HOW TO RUN:
+How to run:
 
-do export IDENTIFIER=your identifier
+Do export IDENTIFIER=your identifier
 
 mvn package
 
 java -DIDENTIFIER=$IDENTIFIER -jar target/bysykkel-0.1-SNAPSHOT-jar-with-dependencies.jar
+
+Logging is done to main.log.
