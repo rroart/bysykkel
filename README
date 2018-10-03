@@ -1,0 +1,7 @@
+HOW TO RUN:
+
+do export IDENTIFIER=your identifier
+
+mvn package
+
+java -DIDENTIFIER=$IDENTIFIER -jar target/bysykkel-0.1-SNAPSHOT-jar-with-dependencies.jar
